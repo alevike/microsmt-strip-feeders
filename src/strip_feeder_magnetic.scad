@@ -64,10 +64,11 @@ module magnet_hole() {
 }
 
 module magnet_holes_array() {
-    // Front magnet
+    // Two magnets along the X-axis for stable mounting
+    // Left magnet (negative X direction)
     translate([base_width/2 - magnet_spacing/2, base_length/2, base_height - magnet_depth])
         magnet_hole();
-    // Rear magnet
+    // Right magnet (positive X direction)
     translate([base_width/2 + magnet_spacing/2, base_length/2, base_height - magnet_depth])
         magnet_hole();
 }

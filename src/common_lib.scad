@@ -67,10 +67,11 @@ module mounting_hole(screw_diameter=3, head_diameter=6, depth=10) {
  * @param text - text to display
  * @param size - text size
  * @param depth - extrusion depth
+ * @param font - font specification (use generic name for compatibility)
  */
-module label_text(text, size=4, depth=0.5) {
+module label_text(text, size=4, depth=0.5, font="sans-serif:style=Bold") {
     linear_extrude(height=depth)
-        text(text, size=size, halign="center", valign="center", font="Liberation Sans:style=Bold");
+        text(text, size=size, halign="center", valign="center", font=font);
 }
 
 /**

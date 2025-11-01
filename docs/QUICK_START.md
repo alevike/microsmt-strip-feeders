@@ -163,7 +163,11 @@ Compare to commercial feeders: $20-50 each!
 
 - **Issues?** Open an issue on GitHub
 - **Questions?** Check [README.md](../README.md) or [CONFIGURATION.md](CONFIGURATION.md)
-- **Community:** MicroSMT forums, OpenPNP Discord
+- **Community Resources:**
+  - [MicroSMT Official Website](https://www.microsmt.com.cn) - Documentation and forums
+  - [OpenPNP Wiki](https://github.com/openpnp/openpnp/wiki) - General PnP integration
+  - [OpenPNP Google Group](https://groups.google.com/g/openpnp) - Community discussions
+  - Search "OpenPNP Discord" for real-time chat support
 
 ---
 

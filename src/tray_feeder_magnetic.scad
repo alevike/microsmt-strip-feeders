@@ -28,6 +28,9 @@ magnet_diameter = 6;
 magnet_depth = 3;
 magnet_spacing = 30; // Distance between magnet centers
 
+// Magnet inset from edges (for 4-point mounting)
+magnet_inset = 10;
+
 /* [Advanced Settings] */
 // Wall thickness
 wall_thickness = 2.5;
@@ -64,10 +67,10 @@ module magnet_hole() {
 module magnet_holes_array() {
     // Four corner magnets for stable mounting
     positions = [
-        [wall_thickness + 10, wall_thickness + 10],
-        [base_width - wall_thickness - 10, wall_thickness + 10],
-        [wall_thickness + 10, base_length - wall_thickness - 10],
-        [base_width - wall_thickness - 10, base_length - wall_thickness - 10]
+        [magnet_inset, magnet_inset],
+        [base_width - magnet_inset, magnet_inset],
+        [magnet_inset, base_length - magnet_inset],
+        [base_width - magnet_inset, base_length - magnet_inset]
     ];
     
     for (pos = positions) {
@@ -142,10 +145,10 @@ module tray_feeder() {
     if (show_magnets) {
         color("silver", 0.8) {
             positions = [
-                [wall_thickness + 10, wall_thickness + 10],
-                [base_width - wall_thickness - 10, wall_thickness + 10],
-                [wall_thickness + 10, base_length - wall_thickness - 10],
-                [base_width - wall_thickness - 10, base_length - wall_thickness - 10]
+                [magnet_inset, magnet_inset],
+                [base_width - magnet_inset, magnet_inset],
+                [magnet_inset, base_length - magnet_inset],
+                [base_width - magnet_inset, base_length - magnet_inset]
             ];
             
             for (pos = positions) {
