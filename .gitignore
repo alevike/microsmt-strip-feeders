@@ -1,0 +1,23 @@
+# OpenSCAD
+*.echo
+*.csg
+*.off
+*.dxf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build artifacts
+*.gcode
+
+# Temporary files
+tmp/
+temp/
