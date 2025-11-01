@@ -20,6 +20,13 @@ A collection of 3D-printable strip and tray feeders designed for the MicroSMT v3
 
 ## Getting Started
 
+### Quick Links
+
+- **🚀 [Quick Start Guide](docs/QUICK_START.md)** - Get up and running in 5 minutes
+- **📋 [Bill of Materials](docs/BOM.md)** - Complete parts list and costs
+- **🔧 [Assembly Instructions](docs/ASSEMBLY.md)** - Detailed assembly guide
+- **⚙️ [Configuration Guide](docs/CONFIGURATION.md)** - Customize your feeders
+
 ### Prerequisites
 
 - OpenSCAD (version 2021.01 or later)
